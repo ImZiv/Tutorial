@@ -1,5 +1,7 @@
 # 在Cloud9 先輸入下列指令
 ```txt
+mkdir python
+
 pip3 install -t python/ openai --use-feature=2020-resolver
 
 pip3 install -t python/ urllib3==1.25.4 --use-feature=2020-resolver
