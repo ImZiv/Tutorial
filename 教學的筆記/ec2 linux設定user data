@@ -1,0 +1,11 @@
+#!/bin/bash
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>安安 $(whoami)</h1>" > /var/www/html/index.html
+
+錢字號裡面也可以換成其他的，看個人需要
+
+參考的網址在這裡：
+https://docs.aws.amazon.com/zh_tw/AWSEC2/latest/UserGuide/user-data.html
